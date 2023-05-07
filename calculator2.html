@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator 2</title>
+
+    <link rel="stylesheet" href="calculator2.css">
+
+    <script src="calculator2.js"></script>
+
+</head>
+<body>
+    <div class="heading">
+        <h1 class="textheading">CALCULATOR</h1>
+    </div>
+
+    <div class="inputdiv">
+        <input id="numInput" class="input" placeholder="Enter your number" type="number">
+    </div>
+
+    <div class="buttondiv">
+    <button onclick="calculateSquare()">Square</button>
+    <button onclick="calculateCube()">Cube</button>
+    <button onclick="generateTable()">Table</button>
+    <button onclick="checkEvenOdd()">Even/Odd</button><br><br>
+    <button onclick="checkPalindrome()">Palindrome</button>
+    <button onclick="reverseNumber()">Reverse</button>
+    <button onclick="calculate()">Sum</button>
+    <button onclick="calculateFactorial()">Factorial</button>
+    </div>
+
+    <p class="resultline" id="result"></p>
+
+    <table id="table"></table>
+
+    
+</body>
+</html>
